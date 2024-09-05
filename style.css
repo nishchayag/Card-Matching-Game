@@ -1,0 +1,37 @@
+* {
+  user-select: none;
+}
+body {
+  background-color: #e8e28857;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+#board {
+  display: flex;
+  justify-content: center;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+}
+
+.btns {
+  height: 180px;
+  width: 180px;
+  margin: 10px;
+  background-color: #00fff750;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btns:disabled {
+  color: inherit;
+}
